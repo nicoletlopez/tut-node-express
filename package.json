@@ -1,0 +1,29 @@
+{
+  "name": "tut-node-express",
+  "version": "1.0.0",
+  "description": "Simple knowledgebase app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoletlopez/tut-node-express.git"
+  },
+  "author": "Nicole Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoletlopez/tut-node-express/issues"
+  },
+  "homepage": "https://github.com/nicoletlopez/tut-node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.16.2",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.1",
+    "pug": "^2.0.4"
+  }
+}
